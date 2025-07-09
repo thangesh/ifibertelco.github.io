@@ -1,0 +1,15 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: sans-serif; line-height: 1.6; color: #333 }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 1rem }
+header { background: #fff; display: flex; align-items: center; justify-content: space-between; padding: 1rem 0; box-shadow: 0 2px 5px rgba(0,0,0,0.1) }
+.logo { height: 50px }
+nav a { margin: 0 0.5rem; text-decoration: none; color: #333 }
+.cta-buttons a { margin-left: 1rem; padding: 0.5rem 1rem; border-radius: 4px; background: #007bff; color: white; text-decoration: none }
+#hero { background: #333; color: white; padding: 4rem 0; text-align: center }
+.btn-primary { background: #28a745; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 4px }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 2rem 0 }
+.stats { display: flex; justify-content: space-around; padding: 2rem 0; background: #f5f5f5 }
+.image-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+blockquote { font-style: italic; margin: 1rem 0; }
+footer { text-align: center; padding: 2rem 0; background: #222; color: #fff }
+.footer-nav a { margin: 0 0.5rem; color: #fff; text-decoration: none }
