@@ -250,7 +250,7 @@ function App() {
             <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-8 mb-8 text-white">
                 <div className="flex items-center gap-3">
                     <Phone />
-                    <span>(555) 123-4567</span>
+                    <span>04-484 3451</span>
                 </div>
                 <div className="flex items-center gap-3">
                     <Mail />
@@ -258,7 +258,7 @@ function App() {
                 </div>
                 <div className="flex items-center gap-3">
                     <MapPin />
-                    <span>123 Network Drive, Tech City</span>
+                    <span>No 6 first floor Jalan Saujana 3 Lunas, 09600 Kulim, Kedah</span>
                 </div>
             </div>
             <Button size="lg" onClick={handleFeatureClick} className="bg-white text-blue-600 hover:bg-slate-200 font-bold text-lg shadow-lg">
