@@ -103,7 +103,8 @@ function App() {
               ))}
             </nav>
             <div className="hidden md:block">
-              <Button onClick={handleFeatureClick} className="bg-cyan-500 hover:bg-cyan-600 text-white font-bold">Get a Quote</Button>
+              <a href="https://wa.me/60174848407?text=Hi%20IFiber%2C%20I%20need%20a%20quote" target="_blank" rel="noopener noreferrer">
+             <Button className="bg-cyan-500 hover:bg-cyan-600 text-white font-bold mt-2">Get a Quote</Button>
             </div>
             <div className="md:hidden">
               <Button onClick={() => setIsMenuOpen(!isMenuOpen)} variant="ghost" size="icon">
